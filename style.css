@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+}
+
+header{
+    width: 100%;
+    border-bottom: 1px lightgrey solid;
+    box-shadow: 0px 2px 2px lightgrey;
+}
+
+.logo{
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Menu{
+    display: flex;
+    list-style: none;
+    gap: 0px;
+}
+
+.todos{
+    text-decoration: none;
+    border:none;
+    border-radius: 3px;
+    background-color:#FFFFFF ;
+    padding: 10px 20px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+}
+.todos:hover{
+    color: rgb(187, 187, 187);
+}
+
+.listAventuraAcao{
+    text-decoration: none;
+    border:none;
+    border-radius: 3px;
+    background-color:#FFFFFF ;
+    padding: 10px 20px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.listAventuraAcao:hover{
+    color: rgb(187, 187, 187);
+}
+
+
+.listCorrida{
+    text-decoration: none;
+    border:none;
+    border-radius: 3px;
+    background-color:#FFFFFF ;
+    padding: 10px 20px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.listCorrida:hover{
+    color: rgb(187, 187, 187);
+}
+
+
+.listRPG{
+    text-decoration: none;
+    border:none;
+    border-radius: 3px;
+    background-color:#FFFFFF ;
+    padding: 10px 20px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.listRPG:hover{
+    color: rgb(187, 187, 187);
+}
+
+main{
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 40px;
+
+}
+
+.Conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vitrine{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-right: 40px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    height: 345px;
+    width: 275px;
+    border: solid 2px #F5F5F5;
+    border-radius: 5px;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card:hover{
+    border: solid 2px #37268C;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img{
+    margin-bottom: 0px;
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.tag{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #2E245E;
+    color: #F5F5F5;
+    max-width: 100%;
+    height: 18px;
+    padding: 5px;
+}
+
+.name{
+    margin-top: 7px;
+    margin-bottom: 6px;
+    width: 100%;
+    height: 25px;
+}
+
+.description{
+    margin-top: 0px;
+    width: 100%;
+    height: 65px;
+}
+
+.price{
+    text-align: center;
+    display: block;
+}
+
+.addCart{
+    background-color: #FFFFFF;
+    color:rgb(0, 0, 0);
+    margin-top: 7px;
+    border: none;
+    cursor:pointer;
+}
+
+.addCart:hover{
+   color: rgb(187, 187, 187);
+}
+
+.cart{
+    margin-right: 50px;
+}
+
+form{
+    margin-top: 27px;
+    display: flex;
+}
+
+.textSearch{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.search{
+    border: none;
+    background-color: #2E245E;
+    border: solid 1px #2E245E;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 10px 20px;
+    cursor:pointer;
+}
+
+.search:hover{
+    background-color: #50448b;
+    border: solid 1px #2E245E;
+    color: #fff
+}
+
+.titleCart{
+    padding: 10px 0px 0px 0px;
+    font-size: larger;
+    height: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #2E245E;
+    border-radius: 3px;
+    color: #FFFFFF
+}
+
+.cartBody{
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    max-height: 325px;
+    overflow-y: auto;
+}
+
+.cartProduct{
+    margin: 5px 0px;
+    padding: 0px;
+    width: 98%;
+    border: solid 2px #c2c2c2;
+    border-radius: 5px;
+}
+
+.listProduct{
+    background-color: #F5F5F5;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+
+.boxImgProduct{
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.imgProduct{
+    height: 60px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.infoProducts{
+    width: 50%;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.nameProduct{
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.priceProduct{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.removeCart{
+    margin-top: 8px;
+    padding: 0px;
+    border: none;
+    background-color: #F5F5F5;
+    cursor: pointer;
+
+}
+
+.removeCart:hover{
+    color:  rgb(187, 187, 187);
+}
+
+.finishPurchase{
+    border: solid 2px #c2c2c2;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F5F5F5;
+    color: #000000;
+}
+
+.contDiv{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contText{
+    margin: 10px 0px 3px 0px;
+}
+
+.contTotal{
+    margin: 10px 0px 3px 0px;
+}
+
+.sumDiv{
+    font-size: medium;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sumText{
+    margin: 3px 0px 10px 0px;
+
+}
+
+.sumTotal{
+    margin: 3px 0px 10px 0px;
+}
+
+.finish{
+    width: 100%;
+    height: 35px;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #2E245E;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.finish:hover{
+    background-color: #50448b;
+    color: #ffffff;
+    border: solid 2px #2E245E;
+}
+
