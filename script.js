@@ -13,7 +13,7 @@ let games = [
   },
   {
     id: 2,
-    img: "./img/AventuraAcao/TombRaider.PNG",
+    img: "./img/AventuraAcao/TombRaider.png",
     name: "Tomb Raider",
     description:
       "Nova edição da famosa série, com uma história intensa e corajosa sobre as origens de Lara Croft.",
@@ -23,7 +23,7 @@ let games = [
   },
   {
     id: 3,
-    img: "./img/AventuraAcao/RiseTombRaider.PNG",
+    img: "./img/AventuraAcao/RiseTombRaider.png",
     name: "Rise of the Tomb Raider",
     description:
       "Nessa continuação você encontra aventuras novas com a familiar jogabilidade vista na obra anterior.",
@@ -53,7 +53,7 @@ let games = [
   },
   {
     id: 6,
-    img: "../img/Corrida/NFSPayback.PNG",
+    img: "../img/Corrida/NFSPayback.png",
     name: "Need for Speed Payback",
     description:
       "Payback traz muito mais ação em seu gameplay, deixando de lado o estilo simulação apresentado nas edições anteriores do game.",
@@ -191,7 +191,7 @@ function createVitrine(list){
       contTotal.innerText = `${cont}`;
       sumText.innerText = "Total: "
       sumTotal.innerText = `R$ ${sum}`;
-      
+
       finishPurchase.append(contDiv, sumDiv);
       contDiv.append(contText, contTotal);
       sumDiv.append(sumText, sumTotal);
